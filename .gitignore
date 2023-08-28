@@ -21,6 +21,8 @@
 !/ShootandWreck/Config/**
 !/ShootandWreck/Plugins/**
 
+# # Do not ignore img folder for README.md
+!/ShootandWreck/img/**
 
 # If directory is not in folder with .git
 # Maybe PJT is in inner folder?
