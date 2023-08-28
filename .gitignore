@@ -3,6 +3,10 @@
 # About UE
 # =========================
 
+# Ignore all files by default, but scan all directories.
+*
+!*/
+
 # Do not ignore git files in the root of the repo.
 !/.git*
 
@@ -10,12 +14,12 @@
 # If directory is in folder with .git
 
 # # Do not ignore current project's `.uproject`.
-!/*.uproject
+!/ShootandWreck/*.uproject
 
 # # Do not ignore source, config and plugins dirs.
-!/Source/**
-!/Config/**
-!/Plugins/**
+!/ShootandWreck/Source/**
+!/ShootandWreck/Config/**
+!/ShootandWreck/Plugins/**
 
 
 # If directory is not in folder with .git
@@ -30,12 +34,12 @@
 !TPSProject/Plugins/**
 
 # ignore Content
-Content/**
+/Content/**
 
 
 # Allow any files from /RawContent dir.
 # Any file in /RawContent dir will be managed by git lfs.
-!/RawContent/**/*
+!/ShootandWreck/RawContent/**/*
 
 # OS/platform generated files.
 
