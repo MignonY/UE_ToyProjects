@@ -15,12 +15,12 @@
 # If directory is in folder with .git
 
 # # Do not ignore current project's `.uproject`.
-# !/*.uproject
+!/*.uproject
 
 # # Do not ignore source, config and plugins dirs.
-# !/Source/**
-# !/Config/**
-# !/Plugins/**
+!/Source/**
+!/Config/**
+!/Plugins/**
 
 
 # If directory is not in folder with .git
