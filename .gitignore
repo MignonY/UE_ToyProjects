@@ -3,11 +3,6 @@
 # About UE
 # =========================
 
-# Ignore all files by default, but scan all directories.
-*
-!*/
-
-
 # Do not ignore git files in the root of the repo.
 !/.git*
 
